@@ -1,0 +1,96 @@
+.fechasContainer{
+    margin-top: 5%;
+    width: 50%;
+    background-color: #fff;
+    border-radius: 20px;   
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+.fechasContData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fechasContData p{
+    margin-top: 5px;
+    color: #000;
+    font-weight: 600;
+}
+.fechasContInp{
+    width: 95%;
+    padding: 3px;
+    margin-bottom: 2%;
+}
+
+.fechasContInp input{
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #131632 ;
+    border-radius: 20px;
+}
+
+.fechasContInp input:focus {
+    outline: none; 
+    background-color: #fff;
+    border: 5px solid #131632;
+    box-shadow: rgba(3, 102, 214, 0.9) 0px 5px 72px 2px;
+    color: #000;
+
+}
+
+ 
+ 
+
+
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateX(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(0);
+	}
+}
+
+@media (max-width: 768px) {
+
+.fechasContainer{
+    width: 100vh;
+    margin-left: -20%;
+    background-color: #fff;
+}
+
+.fechasContData{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fechasContData p{
+    margin-top: 5px;
+    color: #000;
+    font-weight: 600;
+}
+
+.fechasContInp{
+    width: 95%;
+    padding: 3px;
+    margin-bottom: 2%;
+}
+
+.fechasContInp input{
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+    font-weight: 600;
+    background-color: #131632 ;
+    border: 4px solid #000;
+    border-radius: 20px;
+}
+
+}

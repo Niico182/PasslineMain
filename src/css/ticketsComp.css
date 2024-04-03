@@ -1,0 +1,125 @@
+.ticketsInfoCont{
+    margin-top: 5%;
+    width: 80%;
+    background-color: black;
+    padding: 25px;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+.ticketsInfoCompra{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 90px;
+}
+.ticketsInfoCompraBtn input{
+    padding: 6px 15px 6px 15px;
+    background-color: #131632;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+.ticketsBtn2 input{
+    background-color: #111D8C;
+}
+
+.ticketsBtn3 input{
+    padding: 26px;
+    margin-right: 5px;
+    background-color: #131632;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+.ticketsData{
+    margin-top: 2%;
+}
+
+.ticketsDataP h5{
+    color: #fff;
+}
+
+.ticketsDataP p{
+color: #fff;
+}@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+  
+
+@media (max-width: 768px) {
+
+
+    .ticketsInfoCont{
+        width: 100%;
+        background-color: black;
+        padding: 25px;
+        animation: myAnim 2s ease 0s 1 normal forwards;
+    }
+
+    .ticketsInfoCompra{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 90px;
+    }
+
+
+    .ticketsInfoCompraBtn input{
+        padding: 6px 15px 6px 15px;
+        background-color: #131632;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        margin-bottom: 5px;
+    }
+
+    .ticketsBtn2 input{
+        background-color: #111D8C;
+    }
+    
+    .ticketsBtn3 input{
+        padding: 26px;
+        margin-right: 5px;
+        background-color: #131632;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    .ticketsData{
+        margin-top: 10%;
+    }
+
+    .ticketsDataP h5{
+        color: #fff;
+    }
+
+   .ticketsDataP p{
+    color: #fff;
+   }
+
+   @keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+  
+}

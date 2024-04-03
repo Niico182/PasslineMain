@@ -1,0 +1,33 @@
+.entradasContImg{
+    display: flex; 
+    position: relative;
+}
+
+.buttonCont{
+    position: absolute;
+    left: 22%;
+    top: 5%;
+    background-size: cover;
+    width: 38px;
+    height: 38px;
+    border: none; 
+    color: white; 
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+.entradasContImg img{
+    display: flex;
+    width: 75%;
+}
+
+.buttonCont{
+    left: 2%;
+    top: 5%;
+    width: 30px;
+    height: 30px;
+}
+
+}

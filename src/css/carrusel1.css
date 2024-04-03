@@ -1,0 +1,25 @@
+.carruselImgCont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.carruselImgCont img{
+    width: 40%;
+}
+
+@media (max-width: 768px) {
+
+    .carruselImgCont{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .carruselImgCont img{
+        width: 90%;
+    }
+    
+
+}

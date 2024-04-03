@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import 'bootstrap/dist/css/bootstrap.min.css';
+*,
+::before,
+::after {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(0deg,  #131632 0%, #FCFEFC 50%, #131632 100%);
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+/* Navbar */
+
+.nav__wrapper {
+  background: #000;
+  border-radius: 0 0 20px 20px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+
+.nav__brand {
+  font-size: 30px;
+  font-weight: 700;
+  color: #ddd;
+}
+
+.nav__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+.nav__link {
+  color: #ddd;
+  font-size: 20px;
+}
+
+.toggler__icon {
+  cursor: pointer;
+  display: none;
+}
+
+.toggler__icon div {
+  width: 25px;
+  height: 2px;
+  background: #ddd;
+  margin: 7px 0px;
+  transition: 0.3s ease;
+}
+
+@media screen and (max-width: 768px) {
+  .toggler__icon {
+    display: block;
+    position: absolute;
+    left: 85%;
+  }
+  .nav__menu {
+    position: fixed;
+    background: #000;
+    flex-direction: column;
+    top: 8vh;
+    left: 0vw;
+    width: 100vw;
+    height: 0; 
+    overflow: hidden; 
+    transition: height 0.5s ease;
+    z-index: 1000;
+  }
+}
+
+.nav__collapse {
+  padding: 20px 0px 20px 0px;
+  height: 22vh;
+}
+
+/* Toggle Icon Animation */
+.toggle .line__1 {
+  transform: translateY(7px) rotate(-45deg); /* Cambiado a translateY */
+}
+.toggle .line__2 {
+  opacity: 0;
+}
+.toggle .line__3 {
+  transform: translateY(-7px) rotate(45deg); /* Cambiado a translateY */
+}

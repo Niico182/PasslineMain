@@ -1,0 +1,89 @@
+.buttonsContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-radius: 20px;
+}
+.buttonsContDiv{
+    margin-top: 5%;
+    width: 20%;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.buttonsInp{
+    padding: 5px;
+}
+
+.buttonsInp input{
+    background-color: #131632;
+    padding: 15px 45px 15px 45px;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+}
+
+.buttonsInp2 input{
+    background-color: #131632;
+    padding: 15px 45px 15px 45px;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+
+}
+.buttonsContDiv2{
+
+    width: 100%;
+    display: none;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+
+.buttonsContainer{
+    margin-top: 5%;
+    width: 100%;
+    background-color: #000;
+    border-radius: 20px;
+}
+
+.buttonsContDiv{
+    height: 60vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    padding: 10px;
+}
+
+
+.buttonsInp input{
+    background-color: #131632;
+    padding: 15px 25px 15px 25px;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+}
+
+.buttonsInp2 input{
+    background-color: #131632;
+    padding: 15px 45px 15px 45px;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    margin-bottom: 10%;
+    margin-top: 10%;
+
+}
+
+
+
+}
